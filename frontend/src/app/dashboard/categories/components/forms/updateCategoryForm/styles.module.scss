@@ -1,0 +1,13 @@
+.updateDisplay{
+    display: flex;
+    gap: 8px;
+    padding: 8px 0;
+
+    span{
+        font-weight: 300;
+    }
+
+    span strong{
+        color: black;
+    }
+}

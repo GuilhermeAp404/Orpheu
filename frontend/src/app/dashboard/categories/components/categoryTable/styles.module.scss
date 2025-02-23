@@ -1,0 +1,17 @@
+.updateDisplay{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.tableButton{
+    background: transparent;
+    text-decoration: underline;
+    border: none;
+    color: #1E90FF;
+}
+
+.tableButton:nth-child(2){
+    margin-left: 8px;
+    color: #ff2c2c;
+}

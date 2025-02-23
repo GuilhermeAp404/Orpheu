@@ -1,0 +1,36 @@
+.wrapper{
+    background: #fffafa;
+    width: 100%;
+    overflow-y: auto;
+    margin: 24px 0;
+    padding: 12px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.pageHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #CDCDCD;
+    margin-bottom: 18px;
+
+    h1{
+        font-size: 36px;
+    }
+
+    div{
+        display: flex;
+        align-items: center;
+    }
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+
+        h1{
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
+

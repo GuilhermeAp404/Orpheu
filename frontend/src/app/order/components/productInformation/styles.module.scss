@@ -1,0 +1,54 @@
+.title{
+    font-size: 24px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #DCDCDC;
+    
+}
+
+.productInfoWrapper{
+    display: grid;
+    gap: 4px;
+    grid-template-areas: 
+        "id select select category"
+        "costPrice sellingPrice qtd actions"
+    ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+    @media screen and (max-width: 425px) {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "id id"
+            "select select"
+            "category category"
+            "costPrice sellingPrice"
+            "qtd qtd"
+            "actions actions"
+        ;
+        
+    }
+}
+
+.productId{grid-area: id}
+
+.productName{grid-area: select}
+
+.productCategory{grid-area: category}
+
+.costPrice{grid-area: costPrice}
+
+.sellingPrice{grid-area: sellingPrice}
+
+.quantity{grid-area: qtd}
+
+.actions{
+    grid-area: actions;
+    display: flex;
+    flex-direction: column;
+    
+    div{
+        display: flex;
+        gap: 4;
+        align-items: center;
+    }
+}

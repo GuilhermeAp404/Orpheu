@@ -1,0 +1,13 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: end;
+
+    .buttonDiv{
+        margin-top: 18px ;
+        width: 100%;
+        display: flex;
+        justify-content: stretch;
+    }
+}

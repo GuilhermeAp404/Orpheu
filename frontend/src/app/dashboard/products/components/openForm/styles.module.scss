@@ -1,0 +1,8 @@
+.tableSection{
+    overflow-x: auto;
+    scrollbar-width: thin;
+}
+
+.tableSection::-webkit-scrollbar{
+    display: none;
+}

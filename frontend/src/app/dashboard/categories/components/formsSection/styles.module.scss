@@ -1,0 +1,13 @@
+.createSection{
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    @media screen and (max-width: 425px){
+        form{
+            flex-direction: column;
+        }
+    }
+}

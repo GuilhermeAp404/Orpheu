@@ -1,0 +1,39 @@
+.quickMenu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+    
+    @media screen and (max-width: 475px) {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    @media screen and (max-width: 320px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 8px;
+    height: 50px;
+    background: #fffafa;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    transition: 400ms;
+
+    svg{
+        width: 32px;
+        height: 32px;
+    }
+
+    span{
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+
+.box:hover{
+    transform: translatey(-2px);
+    cursor: pointer;
+}
