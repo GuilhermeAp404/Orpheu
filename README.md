@@ -10,10 +10,12 @@
 - [Contato](#-contato) 
 
 ## 💡 Sobre o Projeto  
-O **TaskMarker** foi criado com o intuito de ser uma aplicação organizacional, permitindo que os usuários registrem e gerenciem suas tarefas diárias, definindo horários de início e término para melhor controle da produtividade.  
+O **Orpheu** é um sistema de gerenciamento e controle de estoque desenvolvido para simplificar a administração de pequenos negócios. Com uma interface intuitiva e ferramentas eficientes, a aplicação permite acompanhar produtos, monitorar vendas e gerenciar o estoque de forma prática e organizada.
 
 ## 🚀 Demonstração  
-Em breve...
+![Dashboard](assets/dashboard-interface.png)
+
+#### 🔗 Demonstração completa: [Em breve]()
 
 
 ## 🛠 Tecnologias Utilizadas  
